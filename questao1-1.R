@@ -12,5 +12,5 @@ FreqRelAc <- cumsum(FreqRel)
 TabResul <- cbind(Freq, FreqAc,
                   FreqRel = round(FreqRel*100, digits = 2),
                   FreqRelAc = round(FreqRelAc*100, digits = 2))
-TabResul
+View(TabResul)
 boxplot(enem_db$NOTA_ENEN, col="blue", main="Boxplot - Notas do ENEM 2019")
