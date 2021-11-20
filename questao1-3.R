@@ -14,5 +14,6 @@ barplot(myTable,
         ylab="Freq. sexo", 
         xlab="Quartis", 
         main="Notas x Sexo",
+        ylim=c(0, 12000),
         legend=TRUE,
         beside=TRUE)
